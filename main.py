@@ -6,7 +6,7 @@
 from tkinter import*
 
 root = Tk()
-root.title('IT exhibition')
+root.title('Tic-Tac-Toe')
 root.geometry("650x450")
 
 
