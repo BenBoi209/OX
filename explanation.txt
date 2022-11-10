@@ -1,0 +1,43 @@
+ The code starts with importing the random module.
+ The code then creates a root window and assigns it to the geometry command.
+ Next, we create two labels, one for each of our players (mylabel1 and mylabel2).
+ We then add them to the root window using grid commands.
+ Next, we create three buttons: "Quit", "Start Game", and "Help".
+ Then we assign these buttons to their respective grids in order by assigning them an index number from 0-14.
+ Finally, we call mainloop() which will run our program until it is stopped or interrupted by pressing a button on the interface
+ The code attempts to create a window with the following dimensions: 650x450.
+ The code starts by checking if the player has won.
+ If they have, then it will change the text on the label to show that they have won and reset their turn.
+ If not, then it checks if there is a tie.
+ If so, then it changes the text on the label to say "Tie!"
+ The code is a function that will check to see if the player has won or lost.
+ If the player has won, then it will set their text to "Player 1 Wins!"
+ and if they have lost, then it will set their text to "Player 0 Wins!".
+ If the players tie, then it will set their text to "Tie!"
+ The code starts by declaring a global variable called player.
+ This is the name of the random choice from players that will be used in this game.
+ Next, there are two if statements: one for checking whether or not the winner has been determined and another to check whether or not there are any empty spaces left on the board.
+ The first if statement checks to see who won by comparing buttons[row][column].
+ If it's true, then buttons[row][column] is set to light green; otherwise, it's set to yellow.
+ The second if statement checks for empty spaces using an else clause with True and False as its only possible values.
+ If no space remains on the board, then "Tie" is displayed; otherwise, "Player 1 wins!"
+ is displayed.
+ The code is a simple game of tic-tac-toe.
+ The code begins by setting up the board with three rows and three columns, then it sets up the buttons to represent the players in order: Player 1, Player 2, and Player 3.
+ The first if statement checks to see if any player has won yet.
+ If so, it will set the text on each button accordingly.
+ If not, it will check to see who won next using a for loop that goes through all three players.
+ If no player has won yet, then it will print "Tie!"
+ to the screen before checking again after every iteration of this loop until someone wins or there are no more iterations left.
+ The code starts by creating a window with the title "Tic-Tac-Toe".
+ Then, it creates an array of players.
+ The player is chosen randomly from this list and assigned to the variable player.
+ Next, buttons are created in rows and columns that will be used for displaying text onscreen.
+ The code then creates a label called "label" which has a background color of light blue and font size set at 25 pixels.
+ It also sets its grid location to row 8 column 0 (the first row in the grid).
+ This label will be used as part of the game board where players can place their X or O markers when they win or lose respectively.
+ The code will create a Tic-Tac-Toe game with two players and three rows and columns.
+ The first player is X, the second player is O, and the third row has buttons for each of the players.
+ The code will randomly choose one of the players to be X, then create a label with text "X's turn :)" which will have a blue background.
+ Then it creates a grid containing 8 rows and 0 columns that contains an instance of Label with text "player + "'s turn :)".
+ It also creates buttons in this grid that are all initially set to have text "0" but can be changed by setting their text property to anything else.
